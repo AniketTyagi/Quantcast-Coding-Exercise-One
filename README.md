@@ -10,3 +10,5 @@ Executable file containing function to get the most recurring cookie(s) of a cer
 Executable file containing unit tests to test the most_active_cookie function within the cookie_functions module. Is executed through the following command: <br />**./test_most_active_cookie_unittest.py**<br /> <br />
 ### **test_file.csv**: 
 Test cookie log CSV file to be utilized for the unit testing module
+## How to run
+Make sure to download the interview question zip file, as it contains every source file along with the main and unit test executables, and the test csv file for unit testing
