@@ -1,5 +1,5 @@
 import sys, os, re
-# Module containing cookie log analysis functions
+# Module containing cookie analysis functions
 
 # Function which returns a list of the most active cookies on a given date
 # param1: file to read cookies from
@@ -23,7 +23,6 @@ def mostActiveCookies(current_file, current_date):
     # Associate cookie_data fields with appropriate variable for readbility
     cookie_name = cookie_data_one[0]
     cookie_date = cookie_data_two[0]
-    cookie_time = cookie_data_two[1]
     # Make sure the cookie is of the specified input date
     if(cookie_date == current_date):
     # Increase the cookie's occurence in our dictionary
