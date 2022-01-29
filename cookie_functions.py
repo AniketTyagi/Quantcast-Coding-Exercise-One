@@ -1,5 +1,5 @@
 import sys, os, re
-# Module containing cookie analysis functions
+# Module containing cookie log analysis functions
 
 # Function which returns a list of the most active cookies on a given date
 # param1: file to read cookies from
