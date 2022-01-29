@@ -5,9 +5,9 @@ This repository contains modules and executables to operate on cookie log text/c
 ### **cookie_functions.py**: 
 Module containing functions which can parse through cookie log text files and retrieve valuable information regarding them. <br /> <br />
 ### **most_active_cookie.py**: 
-Executable file containing function to get the most recurring cookie(s) of a certain date stamp within a cookie log file. Make sure to run to have **cookie_functions.py** within the same directory and to run **chmod +x most_active_cookie.py** to make it an executable and that the input csv file is readable. It is executed through the following command: <br />**./most_active_cookie.py (cookie_log file) -d (date)**<br /> <br />
+Source file containing function to get the most recurring cookie(s) of a certain date stamp within a cookie log file. The executable can be found within the zip file and it is executed through the following command: <br />**./most_active_cookie (cookie_log file) -d (date)**<br /> <br />
 ### **test_most_active_cookie_unittest.py**: 
-Executable file containing unit tests to test the most_active_cookie function within the cookie_functions module. Is executed through the following command: <br />**./test_most_active_cookie_unittest.py**<br /> <br />
+Source file containing unit tests to test the most_active_cookie function within the cookie_functions module. The executable can be found within the zip file and it executed through the following command, and make sure the test_file.csv is within the same folder for reading: <br />**./test_most_active_cookie_unittest**<br /> <br />
 ### **test_file.csv**: 
 Test cookie log CSV file to be utilized for the unit testing module
 ## How to run
