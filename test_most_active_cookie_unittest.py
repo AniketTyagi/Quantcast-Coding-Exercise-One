@@ -11,7 +11,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test date with only one most occuring
   def test_one(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2022-12-10"), 
+      mostActiveCookies("test_file.csv", "2022-12-10"), 
       [
       "msvEYZgZy3x8MSCB"
       ], 
@@ -23,7 +23,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test date with 3 most occuring
   def test_two(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2022-01-02"), 
+      mostActiveCookies("test_file.csv", "2022-01-02"), 
       [
       "pjju6dopXcPE35b6", 
       "xXhuxDcdgBxODvHX", 
@@ -40,7 +40,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test date with every packet occuring equally
   def test_three(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2022-06-14"), 
+      mostActiveCookies("test_file.csv", "2022-06-14"), 
       [
         "NJlPZmU5ts9LfYKI", 
         "qGy8V4Q4hTvfpnx3", 
@@ -69,7 +69,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test date with only 2 most occuring
   def test_four(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2022-09-22"), 
+      mostActiveCookies("test_file.csv", "2022-09-22"), 
       [
         "oYPQ2ryayy8GtNc9", 
         "sCU2V6vuixQoxOmR"
@@ -84,7 +84,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test date with no packets occuring
   def test_five(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2002-09-22"), 
+      mostActiveCookies("test_file.csv", "2002-09-22"), 
       [
       ], 
       """
@@ -95,7 +95,7 @@ class TestMostActiveCookie(unittest.TestCase):
   # Test different date with only one occuring
   def test_six(self):
     self.assertEqual(
-      mostActiveCookies("test_file.txt", "2022-12-10"), 
+      mostActiveCookies("test_file.csv", "2022-12-10"), 
       [
         "msvEYZgZy3x8MSCB"
       ], 
